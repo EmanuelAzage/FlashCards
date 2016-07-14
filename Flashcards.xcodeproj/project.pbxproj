@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1094E3E81C9D2C240041832B /* tone.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1094E3E71C9D2C240041832B /* tone.mp3 */; };
+		1094E3EB1C9D2C360041832B /* fadein.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1094E3E91C9D2C360041832B /* fadein.wav */; };
+		1094E3EC1C9D2C360041832B /* TaDa.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1094E3EA1C9D2C360041832B /* TaDa.wav */; };
+		10DA30BA1C90120F00C75015 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 10DA30B91C90120F00C75015 /* main.m */; };
+		10DA30BD1C90120F00C75015 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 10DA30BC1C90120F00C75015 /* AppDelegate.m */; };
+		10DA30C01C90120F00C75015 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10DA30BF1C90120F00C75015 /* ViewController.m */; };
+		10DA30C31C90120F00C75015 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10DA30C11C90120F00C75015 /* Main.storyboard */; };
+		10DA30C51C90120F00C75015 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10DA30C41C90120F00C75015 /* Assets.xcassets */; };
+		10DA30C81C90120F00C75015 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10DA30C61C90120F00C75015 /* LaunchScreen.storyboard */; };
+		10DA30D31C90120F00C75015 /* FlashcardsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 10DA30D21C90120F00C75015 /* FlashcardsTests.m */; };
+		10DA30DE1C90120F00C75015 /* FlashcardsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 10DA30DD1C90120F00C75015 /* FlashcardsUITests.m */; };
+		10DA30ED1C90BB9000C75015 /* FlashCardModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 10DA30EC1C90BB9000C75015 /* FlashCardModel.m */; };
+		10E36C231CA9CDBE00B17DA9 /* AddViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10E36C201CA9CDBE00B17DA9 /* AddViewController.m */; };
+		10E36C241CA9CDBE00B17DA9 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10E36C221CA9CDBE00B17DA9 /* TableViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		10DA30CF1C90120F00C75015 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 10DA30AD1C90120F00C75015 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 10DA30B41C90120F00C75015;
+			remoteInfo = Flashcards;
+		};
+		10DA30DA1C90120F00C75015 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 10DA30AD1C90120F00C75015 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 10DA30B41C90120F00C75015;
+			remoteInfo = Flashcards;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1094E3E71C9D2C240041832B /* tone.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = tone.mp3; sourceTree = "<group>"; };
+		1094E3E91C9D2C360041832B /* fadein.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = fadein.wav; sourceTree = "<group>"; };
+		1094E3EA1C9D2C360041832B /* TaDa.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = TaDa.wav; sourceTree = "<group>"; };
+		10DA30B51C90120F00C75015 /* Flashcards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Flashcards.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		10DA30B91C90120F00C75015 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		10DA30BB1C90120F00C75015 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		10DA30BC1C90120F00C75015 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		10DA30BE1C90120F00C75015 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		10DA30BF1C90120F00C75015 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		10DA30C21C90120F00C75015 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		10DA30C41C90120F00C75015 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		10DA30C71C90120F00C75015 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		10DA30C91C90120F00C75015 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		10DA30CE1C90120F00C75015 /* FlashcardsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlashcardsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		10DA30D21C90120F00C75015 /* FlashcardsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlashcardsTests.m; sourceTree = "<group>"; };
+		10DA30D41C90120F00C75015 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		10DA30D91C90120F00C75015 /* FlashcardsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlashcardsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		10DA30DD1C90120F00C75015 /* FlashcardsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlashcardsUITests.m; sourceTree = "<group>"; };
+		10DA30DF1C90120F00C75015 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		10DA30EB1C90BB8F00C75015 /* FlashCardModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlashCardModel.h; sourceTree = "<group>"; };
+		10DA30EC1C90BB9000C75015 /* FlashCardModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlashCardModel.m; sourceTree = "<group>"; };
+		10E36C1F1CA9CDBE00B17DA9 /* AddViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddViewController.h; sourceTree = "<group>"; };
+		10E36C201CA9CDBE00B17DA9 /* AddViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddViewController.m; sourceTree = "<group>"; };
+		10E36C211CA9CDBE00B17DA9 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		10E36C221CA9CDBE00B17DA9 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		10DA30B21C90120F00C75015 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10DA30CB1C90120F00C75015 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10DA30D61C90120F00C75015 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1094E3E61C9D2C050041832B /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				1094E3E91C9D2C360041832B /* fadein.wav */,
+				1094E3EA1C9D2C360041832B /* TaDa.wav */,
+				1094E3E71C9D2C240041832B /* tone.mp3 */,
+			);
+			name = Sounds;
+			sourceTree = "<group>";
+		};
+		10DA30AC1C90120F00C75015 = {
+			isa = PBXGroup;
+			children = (
+				10DA30B71C90120F00C75015 /* Flashcards */,
+				10DA30D11C90120F00C75015 /* FlashcardsTests */,
+				10DA30DC1C90120F00C75015 /* FlashcardsUITests */,
+				10DA30B61C90120F00C75015 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		10DA30B61C90120F00C75015 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				10DA30B51C90120F00C75015 /* Flashcards.app */,
+				10DA30CE1C90120F00C75015 /* FlashcardsTests.xctest */,
+				10DA30D91C90120F00C75015 /* FlashcardsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		10DA30B71C90120F00C75015 /* Flashcards */ = {
+			isa = PBXGroup;
+			children = (
+				10E36C251CA9D00800B17DA9 /* ViewControllers */,
+				10E36C1E1CA9CC2B00B17DA9 /* View */,
+				1094E3E61C9D2C050041832B /* Sounds */,
+				10DA30F11C90FE3600C75015 /* Models */,
+				10DA30BB1C90120F00C75015 /* AppDelegate.h */,
+				10DA30BC1C90120F00C75015 /* AppDelegate.m */,
+				10DA30C41C90120F00C75015 /* Assets.xcassets */,
+				10DA30C61C90120F00C75015 /* LaunchScreen.storyboard */,
+				10DA30C91C90120F00C75015 /* Info.plist */,
+				10DA30B81C90120F00C75015 /* Supporting Files */,
+			);
+			path = Flashcards;
+			sourceTree = "<group>";
+		};
+		10DA30B81C90120F00C75015 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				10DA30B91C90120F00C75015 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		10DA30D11C90120F00C75015 /* FlashcardsTests */ = {
+			isa = PBXGroup;
+			children = (
+				10DA30D21C90120F00C75015 /* FlashcardsTests.m */,
+				10DA30D41C90120F00C75015 /* Info.plist */,
+			);
+			path = FlashcardsTests;
+			sourceTree = "<group>";
+		};
+		10DA30DC1C90120F00C75015 /* FlashcardsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				10DA30DD1C90120F00C75015 /* FlashcardsUITests.m */,
+				10DA30DF1C90120F00C75015 /* Info.plist */,
+			);
+			path = FlashcardsUITests;
+			sourceTree = "<group>";
+		};
+		10DA30F11C90FE3600C75015 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				10DA30EB1C90BB8F00C75015 /* FlashCardModel.h */,
+				10DA30EC1C90BB9000C75015 /* FlashCardModel.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		10E36C1E1CA9CC2B00B17DA9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				10DA30C11C90120F00C75015 /* Main.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		10E36C251CA9D00800B17DA9 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				10E36C1F1CA9CDBE00B17DA9 /* AddViewController.h */,
+				10E36C201CA9CDBE00B17DA9 /* AddViewController.m */,
+				10E36C211CA9CDBE00B17DA9 /* TableViewController.h */,
+				10E36C221CA9CDBE00B17DA9 /* TableViewController.m */,
+				10DA30BE1C90120F00C75015 /* ViewController.h */,
+				10DA30BF1C90120F00C75015 /* ViewController.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		10DA30B41C90120F00C75015 /* Flashcards */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10DA30E21C90120F00C75015 /* Build configuration list for PBXNativeTarget "Flashcards" */;
+			buildPhases = (
+				10DA30B11C90120F00C75015 /* Sources */,
+				10DA30B21C90120F00C75015 /* Frameworks */,
+				10DA30B31C90120F00C75015 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Flashcards;
+			productName = Flashcards;
+			productReference = 10DA30B51C90120F00C75015 /* Flashcards.app */;
+			productType = "com.apple.product-type.application";
+		};
+		10DA30CD1C90120F00C75015 /* FlashcardsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10DA30E51C90120F00C75015 /* Build configuration list for PBXNativeTarget "FlashcardsTests" */;
+			buildPhases = (
+				10DA30CA1C90120F00C75015 /* Sources */,
+				10DA30CB1C90120F00C75015 /* Frameworks */,
+				10DA30CC1C90120F00C75015 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				10DA30D01C90120F00C75015 /* PBXTargetDependency */,
+			);
+			name = FlashcardsTests;
+			productName = FlashcardsTests;
+			productReference = 10DA30CE1C90120F00C75015 /* FlashcardsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		10DA30D81C90120F00C75015 /* FlashcardsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10DA30E81C90120F00C75015 /* Build configuration list for PBXNativeTarget "FlashcardsUITests" */;
+			buildPhases = (
+				10DA30D51C90120F00C75015 /* Sources */,
+				10DA30D61C90120F00C75015 /* Frameworks */,
+				10DA30D71C90120F00C75015 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				10DA30DB1C90120F00C75015 /* PBXTargetDependency */,
+			);
+			name = FlashcardsUITests;
+			productName = FlashcardsUITests;
+			productReference = 10DA30D91C90120F00C75015 /* FlashcardsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		10DA30AD1C90120F00C75015 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Emanuel Azage";
+				TargetAttributes = {
+					10DA30B41C90120F00C75015 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = S9GHL6FZL3;
+					};
+					10DA30CD1C90120F00C75015 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = S9GHL6FZL3;
+						TestTargetID = 10DA30B41C90120F00C75015;
+					};
+					10DA30D81C90120F00C75015 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = S9GHL6FZL3;
+						TestTargetID = 10DA30B41C90120F00C75015;
+					};
+				};
+			};
+			buildConfigurationList = 10DA30B01C90120F00C75015 /* Build configuration list for PBXProject "Flashcards" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 10DA30AC1C90120F00C75015;
+			productRefGroup = 10DA30B61C90120F00C75015 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				10DA30B41C90120F00C75015 /* Flashcards */,
+				10DA30CD1C90120F00C75015 /* FlashcardsTests */,
+				10DA30D81C90120F00C75015 /* FlashcardsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		10DA30B31C90120F00C75015 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1094E3E81C9D2C240041832B /* tone.mp3 in Resources */,
+				10DA30C81C90120F00C75015 /* LaunchScreen.storyboard in Resources */,
+				10DA30C51C90120F00C75015 /* Assets.xcassets in Resources */,
+				1094E3EB1C9D2C360041832B /* fadein.wav in Resources */,
+				1094E3EC1C9D2C360041832B /* TaDa.wav in Resources */,
+				10DA30C31C90120F00C75015 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10DA30CC1C90120F00C75015 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10DA30D71C90120F00C75015 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		10DA30B11C90120F00C75015 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10E36C231CA9CDBE00B17DA9 /* AddViewController.m in Sources */,
+				10E36C241CA9CDBE00B17DA9 /* TableViewController.m in Sources */,
+				10DA30ED1C90BB9000C75015 /* FlashCardModel.m in Sources */,
+				10DA30C01C90120F00C75015 /* ViewController.m in Sources */,
+				10DA30BD1C90120F00C75015 /* AppDelegate.m in Sources */,
+				10DA30BA1C90120F00C75015 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10DA30CA1C90120F00C75015 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10DA30D31C90120F00C75015 /* FlashcardsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10DA30D51C90120F00C75015 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10DA30DE1C90120F00C75015 /* FlashcardsUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		10DA30D01C90120F00C75015 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 10DA30B41C90120F00C75015 /* Flashcards */;
+			targetProxy = 10DA30CF1C90120F00C75015 /* PBXContainerItemProxy */;
+		};
+		10DA30DB1C90120F00C75015 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 10DA30B41C90120F00C75015 /* Flashcards */;
+			targetProxy = 10DA30DA1C90120F00C75015 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		10DA30C11C90120F00C75015 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				10DA30C21C90120F00C75015 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		10DA30C61C90120F00C75015 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				10DA30C71C90120F00C75015 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		10DA30E01C90120F00C75015 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		10DA30E11C90120F00C75015 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		10DA30E31C90120F00C75015 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = Flashcards/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = azage.emanuel.Flashcards;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		10DA30E41C90120F00C75015 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = Flashcards/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = azage.emanuel.Flashcards;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		10DA30E61C90120F00C75015 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FlashcardsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.usc.FlashcardsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Flashcards.app/Flashcards";
+			};
+			name = Debug;
+		};
+		10DA30E71C90120F00C75015 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FlashcardsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.usc.FlashcardsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Flashcards.app/Flashcards";
+			};
+			name = Release;
+		};
+		10DA30E91C90120F00C75015 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FlashcardsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.usc.FlashcardsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Flashcards;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		10DA30EA1C90120F00C75015 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FlashcardsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.usc.FlashcardsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Flashcards;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		10DA30B01C90120F00C75015 /* Build configuration list for PBXProject "Flashcards" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10DA30E01C90120F00C75015 /* Debug */,
+				10DA30E11C90120F00C75015 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		10DA30E21C90120F00C75015 /* Build configuration list for PBXNativeTarget "Flashcards" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10DA30E31C90120F00C75015 /* Debug */,
+				10DA30E41C90120F00C75015 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		10DA30E51C90120F00C75015 /* Build configuration list for PBXNativeTarget "FlashcardsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10DA30E61C90120F00C75015 /* Debug */,
+				10DA30E71C90120F00C75015 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		10DA30E81C90120F00C75015 /* Build configuration list for PBXNativeTarget "FlashcardsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10DA30E91C90120F00C75015 /* Debug */,
+				10DA30EA1C90120F00C75015 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 10DA30AD1C90120F00C75015 /* Project object */;
+}
